@@ -1,0 +1,456 @@
+
+
+.logo-1{
+  max-width: 100px;
+   padding-top: 10px;
+   margin-left: 30px;
+}
+
+.header{
+  background-color: #FFFFFF;
+  height: 30px;
+  
+  
+}
+
+.nav-items{
+  float: right;
+  list-style: none;
+  
+  }
+
+li{
+    display: inline-block;
+    padding: 5px 2px;
+  
+}
+
+li a{
+  text-decoration: none;
+  color: grey;
+  margin-right: 40px;
+}
+
+.nav-items li a:hover,
+.nav-items li a.active
+{
+  color: blue;
+}
+
+
+
+.Section{
+  background-image: url(img/banner.jpeg);
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(rgba(0, 18, 28, 0.77), rgba(0, 18, 28, 0.77)), url('img/banner.jpeg');
+}
+
+.Section h1{
+  text-align: center;
+  padding-top: 270px;
+  color: white;
+  font-size: 46px;
+  font-weight: 700;
+
+}
+
+.Section p{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  
+}
+
+.Joe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  overflow: hidden;
+  color: #ffffffb2;
+  padding-bottom: 150px;
+  padding-top: 20px;
+
+}
+
+.card{
+  width: 500px;
+  height: 280px;
+  border-radius: 18px;
+  margin-right: 40%;
+  margin-top: 1%; 
+  border: 0;
+}
+  
+.mission{
+  box-shadow: 5px 5px 16px 0px rgba(0,0,0,0.3);
+    position: absolute;
+    font-family: 'Archivo',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    border-width: 4px;
+    border-color: #FFFFFF;
+    padding: 1.5em;
+    top: 55rem;
+    left: 45%;
+    width: 480px;
+}
+
+.Section-container{
+  background-image: url(img/service.png);
+  width: 100%;
+  height: 700px;
+  
+  
+   }
+
+   .section-flex{
+    background-color:  rgba(48,48,48,0.6);
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 20px;  
+   }
+
+    .Card-Container{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 95px;
+   }
+
+   .icard{
+    background-color: rgba(128, 128, 128, 0.527);
+    width: 20%;
+    height: 11rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+  
+   }
+   
+   .icard h2{
+    text-align: center;
+   }
+
+.sec-flexbox{
+  background-color: rgba(48,48,48,0.6);
+}
+ 
+.footer-container{
+  background-color: white;
+  height: 250px;
+}
+
+.h{
+position: absolute;
+margin: auto;
+height: 1px;
+width: 65%;
+background-color: blue;
+margin-top: 60px;
+margin-left: 230px;
+}
+
+.flexbox-container{
+  display: flex;
+    padding-top: 100px;
+  justify-content: center;  
+}
+
+.flex-box{
+  display: flex;
+ margin: 40px;
+ 
+  }
+
+
+  /*ABOUT US CSS*/
+
+  .header-about{
+    background-image: url(./img/empower.jpg);
+    width: 100%;
+    height: 700px;
+  }
+
+  .header-about h1{
+    text-align: center;
+    padding-top: 450px;
+    color: white;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.vcard{
+box-shadow: 5px 5px 16px 0px rgba(0,0,0,0.3);
+background-color: #FFFFFF;
+height: 250px;
+width: 60%;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: -5%;
+margin-bottom: 30px;
+}
+
+.vcard p, h1{
+text-align: justify;
+padding: 10px 10px;
+}
+
+.xcard{
+  background-color: #FFFFFF;
+  height: 350px;
+  width: 450px;
+  margin-left: 40px;
+  margin-right: 20px;
+  border-radius: 5%;
+  margin-top: 60px;
+  padding: 10px 10px;
+
+border-radius: 5%;
+}
+.xcard p,h1{
+  text-align: center;
+  
+}
+
+.xcard img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 45px;
+  width: 60px;
+  height: 60px;
+  
+}
+.xcard-container{
+  background-color: rgba(12,12,12,0.1);;
+  display: flex;
+  height: 500px;
+  gap: 60px;
+  justify-content: center
+}
+
+.partner{
+  background-color: white;
+  height: 60px;
+}
+
+.hl{
+  position: absolute;
+  margin: auto;
+  height: 1px;
+  width: 65%;
+  background-color: black;
+  margin-left: 190px;
+}
+
+.partner h1{
+  margin-left: 10px;
+  margin-right: 850px;
+}
+
+.boss-container{
+  display: flex;
+  background-color: rgba(12,12,12,0.1);
+  height: 700px; 
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.boss{
+box-shadow: 5px 5px 16px 0px rgba(0,0,0,0.3);
+background-color: #FFFFFF;
+height: 650px;
+width: 450px;
+margin-left: 40px;
+margin-right: 20px;
+border-radius: 5%;
+}
+.boss-container img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 250px;
+  width: 250px;
+  padding-top: 20px;
+}
+
+.boss-container p, h3{
+  text-align: center;
+}
+
+/* SERVICES PAGE */
+
+.header-services{
+  background-image: url(./img/banner.jpeg);
+  height: 700px;
+}
+
+.header-services h1{
+  font-size: 65px;
+  font-weight: 60px;
+  padding-top: 140px;
+  color: #FFFFFF;
+  ;
+}
+
+.header-services p{
+  background-color: blue;
+  color: #FFFFFF;
+  padding: 40px 40px;
+  margin: 45px 45px;
+
+}
+
+.section-services{
+  background-color: bisque;
+  height: 350px;
+}
+.section-services1{
+  background-color: white;
+  height: 450px;
+}
+
+.section-services img{
+  max-width: 450px;
+  border-radius: 5%;
+  margin-top: 60px;
+  margin-left: 20px;
+  float: left;
+  margin-right: 60px;
+}
+.section-services1 img{
+  max-width: 450px;
+  border-radius: 5%;
+  margin-top: 60px;
+  margin-left: 20px;
+  float: right;
+  margin-right: 60px;
+}
+
+.section-services h1{
+  padding-top: 100px;
+  
+}
+
+.section-services p{
+  padding-right: 20px;
+
+}
+
+.section-services button{
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+  height: 30px;
+  border: none;
+  
+}
+
+.section-services1 h1{
+  padding-top: 100px;
+  
+}
+
+.section-services1 p{
+  padding-right: 20px;
+
+}
+
+.section-services1 button{
+  background-color: blue;
+  color: white;
+  margin-top: 20px;
+  height: 30px;
+  border: none;
+  
+  
+}
+
+/* CONTACT US */
+
+.Contact{
+  display: flex;
+  justify-content: row;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.office{
+padding-top: 100px;
+margin-left: 200px;
+}
+
+.input-field1{
+  background-color: #eee;
+  height: 50px;
+  color: #999;
+  padding: 0 10px 0 45px;
+  border: none;
+  width: 145px;
+
+}
+
+.input-field2{
+  background-color: #eee;
+  height: 50px;
+  color: #999;
+  padding: 0 10px 0 45px;
+  border: none; 
+  width: 145px; 
+}
+
+.input-field3{
+  background-color: #eee;
+  height: 50px;
+  color: #999;
+  padding: 0 10px 0 45px;
+  border: none;
+  width: 380px;
+  
+  
+}
+
+.input-field4{
+  background-color: #eee;
+  height: 150px;
+  color: #999;
+  padding: 0 10px 0 45px;
+  border: none;
+  width: 380px;
+
+  
+}
+
+.Contact button{
+  background-color: blue;
+  color: white;
+  height: 30px;
+  border: none;
+  width: 80px;
+  
+}
+
+.Registration-form{
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+
+.input-box1{
+ display: flex;
+ flex-direction: row;
+ gap: 30px;
+
+}
